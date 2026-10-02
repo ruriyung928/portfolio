@@ -15,6 +15,7 @@
   <!--내부스타일연결-->
   <link rel="stylesheet" href="./fonts/web_fonts.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/about.css">
 </head>
 
 <body>
@@ -48,159 +49,166 @@
             <p class="sub2">&oplus; Quietly persistent, surprisingly detailed.<br> Welcome to my creative archive.</p>
           </div>
         </div>
-        <!--main(home):사이트에 접속시, 맨 처음 보이는 화면
-          한화면으로 스스로를 표현할 수 있는 내용으로 구성
-          (사진,이미지,슬라이드,동영상,슬로건(문구),효과,...)-->
       </section>
+
       <section id="about" class="section">
-        <p>about(profile):자신을 소개하는 영역, 개인정보 제외,
-          이력서에 표기되지 않는 내용, 주요내용들을 표기
-          (약력,기술(스킬),성향,취미,관심 - 인포그래픽)</p>
+        <div class="about-shell">
+          <div class="about-profile">
+            <div class="about-intro">
+              <p class="about-eyebrow">DESIGNER</p>
+              <h2 class="about-name">Yelan<br>Park</h2>
+              <p class="about-lead">좋은 경험을 만드는 디자이너, 박예란입니다.</p>
+              <p class="about-desc">사용자의 일상에 자연스럽게 스며드는 디지털 경험을 디자인합니다. 브랜드와 사용자가 더 가까워질 수 있는 따뜻하고 섬세한 인터페이스를 고민합니다.</p>
+              <p class="about-signature">Designing meaningful<br>experiences for a better tomorrow.</p>
+            </div>
+
+            <div class="about-hero">
+              <img src="./images/862297e1-e350-4f1d-8bc7-4ec91068a718.png" alt="Designer portrait">
+            </div>
+
+            <ol class="about-side-nav" aria-label="About section index">
+              <li><b>01</b><span>PROFILE</span></li>
+              <li><b>02</b><span>SKILLS</span></li>
+              <li><b>03</b><span>EXPERIENCE</span></li>
+              <li><b>04</b><span>CONTACT</span></li>
+            </ol>
+          </div>
+
+          <div class="about-info">
+            <article class="about-panel about-profile-panel">
+              <h3 class="about-section-title">PROFILE</h3>
+              <dl class="profile-list">
+                <dt>이름</dt><dd>박예란</dd>
+                <dt>생년월일</dt><dd>1997. 03. 12</dd>
+                <dt>거주지</dt><dd>전주, 대한민국</dd>
+                <dt>이메일</dt><dd>yelan.park@example.com</dd>
+                <dt>연락처</dt><dd>010-1234-5678</dd>
+                <dt>SNS</dt>
+                <dd class="profile-social">
+                  <a href="#" aria-label="Social link 1"><img src="./images/Social Icons.png" alt=""></a>
+                  <a href="#" aria-label="Social link 2"><img src="./images/Social Icons (1).png" alt=""></a>
+                  <a href="#" aria-label="Social link 3"><i class="xi-instagram"></i></a>
+                  <a href="#" aria-label="Social link 4"><i class="xi-github"></i></a>
+                </dd>
+              </dl>
+              <a class="about-cta" href="mailto:yelan.park@example.com">CONTACT ME <span>→</span></a>
+            </article>
+
+            <article class="about-panel about-skills-panel">
+              <h3 class="about-section-title">SKILLS</h3>
+              <p class="skill-label">Design Tool</p>
+              <div class="tool-list">
+                <div class="tool-item"><img src="./images/App logo 198.png" alt="Figma"><span>Figma</span></div>
+                <div class="tool-item"><img src="./images/App logo 142.png" alt="Adobe Photoshop"><span>Adobe<br>Photoshop</span></div>
+                <div class="tool-item"><img src="./images/App logo 138.png" alt="Adobe Illustrator"><span>Adobe<br>Illustrator</span></div>
+                <div class="tool-item"><img src="./images/App logo 140.png" alt="Adobe After Effects"><span>Adobe<br>After Effects</span></div>
+              </div>
+              <p class="skill-label core-label">Core Skills</p>
+              <div class="skill-row"><span>UI/UX Design</span><div class="skill-bar"><i style="width:90%"></i></div><span>90%</span></div>
+              <div class="skill-row"><span>Visual Design</span><div class="skill-bar"><i style="width:85%"></i></div><span>85%</span></div>
+              <div class="skill-row"><span>Interaction Design</span><div class="skill-bar"><i style="width:80%"></i></div><span>80%</span></div>
+              <div class="skill-row"><span>Branding</span><div class="skill-bar"><i style="width:75%"></i></div><span>75%</span></div>
+              <div class="skill-row"><span>Prototyping</span><div class="skill-bar"><i style="width:85%"></i></div><span>85%</span></div>
+            </article>
+
+            <article class="about-panel about-experience-panel">
+              <h3 class="about-section-title">EXPERIENCE</h3>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="timeline-date">2024 – Present</span>
+                  <div class="timeline-copy"><strong>프리랜스 디자이너</strong><p>브랜드, 웹/앱, 그래픽 등 다양한 프로젝트 진행</p></div>
+                </div>
+                <div class="timeline-item">
+                  <span class="timeline-date">2022 – 2024</span>
+                  <div class="timeline-copy"><strong>(주) 모드스튜디오<br>UI/UX 디자이너</strong><p>웹·모바일 서비스 디자인, 브랜드 비주얼 제작</p></div>
+                </div>
+                <div class="timeline-item">
+                  <span class="timeline-date">2020 – 2022</span>
+                  <div class="timeline-copy"><strong>(주) 라이트컴퍼니<br>그래픽 디자이너</strong><p>온라인 콘텐츠 및 마케팅 디자인</p></div>
+                </div>
+                <div class="timeline-item">
+                  <span class="timeline-date">2016 – 2020</span>
+                  <div class="timeline-copy"><strong>홍익대학교 시각디자인과</strong><p>학사 졸업</p></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="about-panel about-more-panel">
+              <h3 class="about-section-title">MORE ABOUT ME</h3>
+              <div class="note-list">
+                <p class="note-item"><span class="note-icon">☕</span><span>좋은 커피와 조용한 공간에서 아이디어를 찾는 걸 좋아해요.</span></p>
+                <p class="note-item"><span class="note-icon">▰</span><span>다양한 분야의 레퍼런스를 수집하고 기록하는 것을 즐깁니다.</span></p>
+                <p class="note-item"><span class="note-icon">✦</span><span>새로운 경험을 통해 시야를 넓히는 것을 좋아합니다.</span></p>
+              </div>
+              <div class="detail-card">
+                <img src="./images/브랜딩 디자인 - 은향.jpg" alt="Design detail">
+              </div>
+            </article>
+          </div>
+        </div>
       </section>
+
       <section id="works" class="section">
-        <!--works(portfolio):작업한 프로젝트들을 진열하고, 
-          소개 및 설명(기획)을 첨부하고, 모달윈도우를 통해
-          세부페이지로 연결-->
         <div class="work-header">
           <div class="title-area">
             <p class="sub-label">Selected Atelier Works</p>
             <h2 class="main-title">Crafted Archive</h2>
           </div>
-          <div class="scroll-guide">
-            Scroll / Drag to browse &rarr;
-          </div>
+          <div class="scroll-guide">Scroll / Drag to browse &rarr;</div>
         </div>
 
         <div id="works_inner">
-          <div class="list">            
-            <!-- 01. 영상편집 -->
+          <div class="list">
             <div class="item">
               <a href="detail-video.html" class="work-card" data-fancybox="portfolio" data-type="iframe">
-              <div class="thumb-box">
-                <img src="https://picsum.photos/900/620?random=11" alt="영상편집">
-              </div>
-              <div class="meta-info">
-                <div class="top-row">
-                  <span class="index-num">No. 01</span>
-                  <span class="category-stamp">Video Editing</span>
-                </div>
-                <h3 class="project-title">Commercial Film</h3>
-                <p class="project-desc">호흡감 있는 컷 편집과 필름 그레인 색보정(DI)으로 직조한 브랜드 필름.</p>
-              </div>
-            </a>
+                <div class="thumb-box"><img src="https://picsum.photos/900/620?random=11" alt="영상편집"></div>
+                <div class="meta-info"><div class="top-row"><span class="index-num">No. 01</span><span class="category-stamp">Video Editing</span></div><h3 class="project-title">Commercial Film</h3><p class="project-desc">호흡감 있는 컷 편집과 필름 그레인 색보정(DI)으로 직조한 브랜드 필름.</p></div>
+              </a>
             </div>
-
-            <!-- 02. 모션그래픽 -->
             <div class="item">
               <a href="detail-motion.html" class="work-card" data-fancybox="portfolio" data-type="iframe">
-                <div class="thumb-box">
-                  <img src="https://picsum.photos/900/620?random=12" alt="모션그래픽">
-                </div>
-                <div class="meta-info">
-                  <div class="top-row">
-                    <span class="index-num">No. 02</span>
-                    <span class="category-stamp">Motion Graphics</span>
-                  </div>
-                  <h3 class="project-title">Kinetic Identity</h3>
-                  <p class="project-desc">유기적인 타이포그래피 모션과 아날로그 질감을 결합한 인트로 시퀀스.</p>
-                </div>
+                <div class="thumb-box"><img src="https://picsum.photos/900/620?random=12" alt="모션그래픽"></div>
+                <div class="meta-info"><div class="top-row"><span class="index-num">No. 02</span><span class="category-stamp">Motion Graphics</span></div><h3 class="project-title">Kinetic Identity</h3><p class="project-desc">유기적인 타이포그래피 모션과 아날로그 질감을 결합한 인트로 시퀀스.</p></div>
               </a>
             </div>
-
-            <!-- 03. 포스터 -->
             <div class="item">
               <a href="detail-poster.html" class="work-card" data-fancybox="portfolio" data-type="iframe">
-                <div class="thumb-box">
-                  <img src="https://picsum.photos/900/620?random=13" alt="포스터">
-                </div>
-                <div class="meta-info">
-                  <div class="top-row">
-                    <span class="index-num">No. 03</span>
-                    <span class="category-stamp">Poster Design</span>
-                  </div>
-                  <h3 class="project-title">Exhibition Visual</h3>
-                  <p class="project-desc">종이의 촉감과 대비를 고려한 활판 인쇄풍 아트 페스티벌 메인 포스터.</p>
-                </div>
+                <div class="thumb-box"><img src="https://picsum.photos/900/620?random=13" alt="포스터"></div>
+                <div class="meta-info"><div class="top-row"><span class="index-num">No. 03</span><span class="category-stamp">Poster Design</span></div><h3 class="project-title">Exhibition Visual</h3><p class="project-desc">종이의 촉감과 대비를 고려한 활판 인쇄풍 아트 페스티벌 메인 포스터.</p></div>
               </a>
             </div>
-
-            <!-- 04. 브랜딩 -->
             <div class="item">
               <a href="detail-branding.html" class="work-card" data-fancybox="portfolio" data-type="iframe">
-                <div class="thumb-box">
-                  <img src="https://picsum.photos/900/620?random=14" alt="브랜딩">
-                </div>
-                <div class="meta-info">
-                  <div class="top-row">
-                    <span class="index-num">No. 04</span>
-                    <span class="category-stamp">Branding</span>
-                  </div>
-                  <h3 class="project-title">Atelier Identity</h3>
-                  <p class="project-desc">장인 정신과 지속 가능한 원료의 가치를 담아낸 브랜드 아이덴티티 시스템.</p>
-                </div>
+                <div class="thumb-box"><img src="https://picsum.photos/900/620?random=14" alt="브랜딩"></div>
+                <div class="meta-info"><div class="top-row"><span class="index-num">No. 04</span><span class="category-stamp">Branding</span></div><h3 class="project-title">Atelier Identity</h3><p class="project-desc">장인 정신과 지속 가능한 원료의 가치를 담아낸 브랜드 아이덴티티 시스템.</p></div>
               </a>
             </div>
-
-            <!-- 05. 카드뉴스 -->
             <div class="item">
               <a href="detail-cardnews.html" class="work-card" data-fancybox="portfolio" data-type="iframe">
-                <div class="thumb-box">
-                  <img src="https://picsum.photos/900/620?random=15" alt="카드뉴스">
-                </div>
-                <div class="meta-info">
-                  <div class="top-row">
-                    <span class="index-num">No. 05</span>
-                    <span class="category-stamp">Card News</span>
-                  </div>
-                  <h3 class="project-title">Editorial Story</h3>
-                  <p class="project-desc">디지털 피드에서도 한 장의 지면을 읽는 듯한 높은 가독성의 에디토리얼 카드뉴스.</p>
-                </div>
+                <div class="thumb-box"><img src="https://picsum.photos/900/620?random=15" alt="카드뉴스"></div>
+                <div class="meta-info"><div class="top-row"><span class="index-num">No. 05</span><span class="category-stamp">Card News</span></div><h3 class="project-title">Editorial Story</h3><p class="project-desc">디지털 피드에서도 한 장의 지면을 읽는 듯한 높은 가독성의 에디토리얼 카드뉴스.</p></div>
               </a>
             </div>
-
-            <!-- 06. 브로슈어 -->
             <div class="item">
               <a href="detail-brochure.html" class="work-card" data-fancybox="portfolio" data-type="iframe">
-                <div class="thumb-box">
-                  <img src="https://picsum.photos/900/620?random=16" alt="브로슈어">
-                </div>
-                <div class="meta-info">
-                  <div class="top-row">
-                    <span class="index-num">No. 06</span>
-                    <span class="category-stamp">Brochure</span>
-                  </div>
-                  <h3 class="project-title">Craft Collection</h3>
-                  <p class="project-desc">공예 작품들의 결을 온전히 담아낸 여백 중심의 아카이브 북 & 브로슈어.</p>
-                </div>
+                <div class="thumb-box"><img src="https://picsum.photos/900/620?random=16" alt="브로슈어"></div>
+                <div class="meta-info"><div class="top-row"><span class="index-num">No. 06</span><span class="category-stamp">Brochure</span></div><h3 class="project-title">Craft Collection</h3><p class="project-desc">공예 작품들의 결을 온전히 담아낸 여백 중심의 아카이브 북 & 브로슈어.</p></div>
               </a>
             </div>
-
-            <!-- 07. 리플릿 -->
             <div class="item">
               <a href="detail-leaflet.html" class="work-card" data-fancybox="portfolio" data-type="iframe">
-                <div class="thumb-box">
-                  <img src="https://picsum.photos/900/620?random=17" alt="리플릿">
-                </div>
-                <div class="meta-info">
-                  <div class="top-row">
-                    <span class="index-num">No. 07</span>
-                    <span class="category-stamp">Leaflet</span>
-                  </div>
-                  <h3 class="project-title">Folding Guide</h3>
-                  <p class="project-desc">3단 접지(Z-fold) 전개 순서에 맞춘 입체적 동선 안내와 인포메이션 리플릿.</p>
-                </div>
+                <div class="thumb-box"><img src="https://picsum.photos/900/620?random=17" alt="리플릿"></div>
+                <div class="meta-info"><div class="top-row"><span class="index-num">No. 07</span><span class="category-stamp">Leaflet</span></div><h3 class="project-title">Folding Guide</h3><p class="project-desc">3단 접지(Z-fold) 전개 순서에 맞춘 입체적 동선 안내와 인포메이션 리플릿.</p></div>
               </a>
             </div>
-          </div><!--end:.list-->
-        </div><!--end:#works_inner-->
+          </div>
+        </div>
       </section>
 
       <section id="contact" class="section">
-        <p>contact : 맨 마지막 영역으로 생략해도 됨.
-          (끝인사, 맺음말, 연락수단(연락처), 방명록,
-          메일전송화면)</p>
+        <p>contact : 맨 마지막 영역으로 생략해도 됨. (끝인사, 맺음말, 연락수단(연락처), 방명록, 메일전송화면)</p>
       </section>
-    </div><!--end:.container-->
+    </div>
     <div class="pager"></div>
     <div class="navi">
       <div class="prev"><i class="xi-4x xi-caret-up-square-o"></i></div>
@@ -208,10 +216,8 @@
     </div>
   </main>
 
-  <!--외부스크립트-->
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
-  <!--내부스크립트-->
   <script src="./js/script.js"></script>
 </body>
 
